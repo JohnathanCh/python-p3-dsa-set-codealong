@@ -26,8 +26,8 @@ class MySet:
     
     def __str__(self):
         # pdb.set_trace()
-        # list = []
+        # allKeys = []
         # for num in set(self.dictionary.keys()):
-        #     list.append(num)
+        #     allKeys.append(num)
         allKeys = [str(num) for num in self.dictionary.keys()]
         return f'MySet: {{{",".join(allKeys)}}}'
